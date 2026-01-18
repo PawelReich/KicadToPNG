@@ -1,0 +1,12 @@
+[project]
+name = "kicadtopng"
+version = "1.0.0"
+description = "Small tool for exporting KiCad sections as graphics"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cairosvg>=2.8.2",
+]
+
+[project.scripts]
+kicadtopng = "kicadtopng:main"
